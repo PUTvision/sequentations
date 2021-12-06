@@ -24,4 +24,5 @@ def SequentialWrapper(cls):
             kwargs['cols'], kwargs['rows'] = mask.shape[1:3]
             return np.stack(tuple(map(lambda m: super(cls, self).apply_to_mask(m, *args, **kwargs), mask)))
 
+
     return DualTransform

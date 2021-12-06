@@ -21,6 +21,7 @@ pip install git+https://github.com/PUTvision/sequentations
 | ColorJitter |  |
 | Flip |  |
 | RandomGamma |  |
+| RandomResizedCrop |  |
 | Rotate |  |
 
 | Others 	| Result 	|
